@@ -20,6 +20,7 @@ function encontrarLivrosPorGenero(genero) {
 const livrosDeFiccao = encontrarLivrosPorGenero('Ficção Científica');
 console.log(livrosDeFiccao);
 
+
 // ------------------------------------------------------------------------
 // ATIVIDADE 2: Refatorando com Arrow Function
 //

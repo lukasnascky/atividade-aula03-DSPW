@@ -72,11 +72,10 @@ console.log(todosOsTitulos);
 // Teste da Atividade 4
 console.log('\n--- Atividade 4: Livros de J.R.R. Tolkien publicados após 1950 ---');
 
-const livrosDeAutorAposAno = (autor, ano) => livros.filter();
+const livrosDeAutorAposAno = (autor, ano) => livros.filter(livro => livro.autor === autor && livro.anoPublicacao > ano);
 
-// const livrosTolkienPos1950 = livrosDeAutorAposAno('J.R.R. Tolkien', 1950);
-// console.log(livrosTolkienPos1950);
-
+const livrosTolkienPos1950 = livrosDeAutorAposAno('J.R.R. Tolkien', 1950);
+console.log(livrosTolkienPos1950);
 
 
 // ------------------------------------------------------------------------
@@ -90,9 +89,6 @@ const livrosDeAutorAposAno = (autor, ano) => livros.filter();
 // para extrair as propriedades 'titulo', 'autor' e 'anoPublicacao'
 // de cada objeto livro diretamente no parâmetro da função do .map().
 // ------------------------------------------------------------------------
-
-
-
 
 // Sua vez
   

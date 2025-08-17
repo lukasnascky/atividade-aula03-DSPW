@@ -95,5 +95,5 @@ console.log(livrosTolkienPos1950);
   
 // Teste da Atividade 5
 console.log('\n--- Atividade 5: Cartões de Apresentação dos Livros ---');
-// const cartoes = criarCartoesDeLivros();
-// console.log(cartoes);
+const cartoes = criarCartoesDeLivros();
+console.log(cartoes);

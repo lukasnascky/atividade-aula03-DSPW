@@ -95,5 +95,8 @@ console.log(livrosTolkienPos1950);
   
 // Teste da Atividade 5
 console.log('\n--- Atividade 5: Cartões de Apresentação dos Livros ---');
-const cartoes = criarCartoesDeLivros();
+
+const criarCartoesDeLivros = (livros) => livros.map(({titulo, autor, anoPublicacao}) => `Título: ${titulo} | Autor: ${autor} | Ano: ${anoPublicacao}` );
+
+const cartoes = criarCartoesDeLivros(livros);
 console.log(cartoes);
